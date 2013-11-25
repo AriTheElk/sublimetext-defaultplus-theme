@@ -433,7 +433,7 @@
  
     {
         "class": "tabset_control",
- 
+        "settings": ["defaultplus_classic_tabs"],
         "layer0.opacity": 1.0,
         "tint_index": 0,
  
@@ -450,18 +450,21 @@
     },
     {
         "class": "tabset_control",
+        "settings": ["defaultplus_classic_tabs"],
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
     },
     {
         // Tabset override for light colors
         "class": "tabset_control",
+        "settings": ["defaultplus_classic_tabs"],
         "attributes": ["file_light"],
         "layer1.texture": "Theme - DefaultPlus/assets/light_tabset_background_transparent.png"
     },
     {
         // Tabset override for medium-dark colors
         "class": "tabset_control",
+        "settings": ["defaultplus_classic_tabs"],
         "attributes": ["file_medium_dark"],
         "layer1.opacity": 1.0,
         "layer1.texture": "Theme - DefaultPlus/assets/medium_dark_tabset_background_transparent.png"
@@ -469,6 +472,7 @@
     {
         // Tabset override for dark colors
         "class": "tabset_control",
+        "settings": ["defaultplus_classic_tabs"],
         "attributes": ["file_dark"],
         "layer1.opacity": 1.0,
         "layer1.texture": "Theme - DefaultPlus/assets/dark_tabset_background_transparent.png"
@@ -477,7 +481,7 @@
     /** Tabs **/
     {
         "class": "tab_control",
- 
+        "settings": ["defaultplus_classic_tabs"],
         "layer0.texture": "Theme - DefaultPlus/assets/tab_mask_152_gradient2.png",
         "layer0.inner_margin": [22, 4],
         "layer0.opacity": 1.0,
@@ -498,29 +502,33 @@
     /** Tabs (file color overrides) **/
     {
         "class": "tab_control", "attributes": ["file_light"],
+        "settings": ["defaultplus_classic_tabs"],
         "layer2.texture": "Theme - DefaultPlus/assets/light_unselected_tab_bg2.png",
         "layer2.opacity": 0.7
     },
     {
         "class": "tab_control", "attributes": ["file_medium"],
+        "settings": ["defaultplus_classic_tabs"],
         "layer2.texture": "Theme - DefaultPlus/assets/medium_unselected_tab_bg.png",
         "layer2.opacity": 0.5
     },
     {
         "class": "tab_control", "attributes": ["file_medium_dark"],
+        "settings": ["defaultplus_classic_tabs"],
         "tint_modifier": [255, 255, 255, 80],
         "layer2.texture": "Theme - DefaultPlus/assets/medium_dark_unselected_tab_bg2.png",
         "layer2.opacity": 0.2
     },
     {
         "class": "tab_control", "attributes": ["file_dark"],
+        "settings": ["defaultplus_classic_tabs"],
         "tint_modifier": [255, 255, 255, 230],
         "layer0.texture": "Theme - DefaultPlus/assets/dark_tab_mask3.png",
         "layer2.texture": "Theme - DefaultPlus/assets/dark_unselected_tab_bg2.png",
         "layer2.opacity": 1.0
     },
  
-    /** Selected Tabs **/
+    /** Classic Selected Tabs **/
     {
         "class": "tab_control", "attributes": ["selected"],
         "layer0.texture": "Theme - DefaultPlus/assets/tab_mask_white.png",
@@ -531,13 +539,14 @@
         "layer2.texture": "Theme - DefaultPlus/assets/light_selected_tab_bg.png",
         "layer2.opacity": 0.8
     },
-    {
+    { 
         "class": "tab_control", "attributes": ["selected", "file_medium"],
         "layer2.texture": "Theme - DefaultPlus/assets/medium_selected_tab_bg.png",
         "layer2.opacity": 0.5
     },
     {
         "class": "tab_control", "attributes": ["selected", "file_medium_dark"],
+        "settings": ["defaultplus_classic_tabs"],
         "tint_modifier": [0, 0, 0, 0],
         "layer2.texture": "Theme - DefaultPlus/assets/medium_dark_selected_tab_bg.png",
         "layer2.opacity": 0.2
@@ -549,6 +558,64 @@
         "layer2.opacity": 1,
         "layer0.opacity": 1.0
     },
+
+    {
+        "class": "tabset_control",
+        "settings": ["!defaultplus_classic_tabs"],
+        "layer0.opacity": 1.0,
+        "tint_index": 0,
+ 
+        "layer1.texture": "Theme - DefaultPlus/assets/tabset_background_transparent.png",
+        "layer1.inner_margin": [0, 0],
+        "layer1.opacity": 1.0,
+ 
+        "content_margin": [0, 0, 0, 2],
+        "tab_overlap": 0,
+        "tab_width": 180,
+        "tab_min_width": 48,
+        "tab_height": 32,
+        "mouse_wheel_switch": false
+    },
+
+    /** Block Tabs **/
+    {
+        "class": "tab_control",
+        "settings": ["!defaultplus_classic_tabs"],
+        "layer0.texture": "Theme - DefaultPlus/assets/tab_mask_152_gradient2.png",
+        "layer0.inner_margin": [22, 4],
+        "layer0.opacity": 1.0,
+        "tint_index": 0,        // tint layer 0
+        "tint_modifier": [255, 0, 0, 0],
+ 
+        "layer1.texture": "",
+        "layer1.inner_margin": [22, 4],
+        "layer1.opacity": 0.0,
+ 
+        "layer2.inner_margin": [22, 4],
+ 
+        "content_margin": [24, 8, 23, 4],
+        "max_margin_trim": 6,
+        "hit_test_level": 0.4
+    },
+
+    /** Block Unselected Tabs **/
+    {
+        "class": "tab_control", "attributes": ["file_medium_dark"],
+        "settings": ["!defaultplus_classic_tabs"],
+        "tint_modifier": [255, 255, 255, 80],
+        "layer2.texture": "Theme - DefaultPlus/assets/block_unselected_tab.png",
+        "layer2.opacity": 1.0
+    },
+
+    /** Block Selected Tabs **/
+    {
+        "class": "tab_control", "attributes": ["selected", "file_medium_dark"],
+        "settings": ["!defaultplus_classic_tabs"],
+        "tint_modifier": [0, 0, 0, 0],
+        "layer2.texture": "Theme - DefaultPlus/assets/block_selected_tab.png",
+        "layer2.opacity": 1.0
+    },
+
  
     /** Tab Labels **/
     {
