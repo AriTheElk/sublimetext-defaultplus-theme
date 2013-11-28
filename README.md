@@ -34,5 +34,11 @@ Enjoy using the DefaultPlus theme! If you have any issues, please don't hesitate
 By default the tabs will be styled in a "block-tab" style. To restore the default tab style, add `"defaultplus_classic_tabs": true` in your Preferences file.
 
 ## Changelog
+### 11.28.13
+* Updated the look and feel of the block tabs
+* Updated the look of input elements
+* Changed the color of button highlights
+* Made the side bar's color scheme easier on the eyes.
+
 ### 11.25.13 
 * Added block-styled tabs
