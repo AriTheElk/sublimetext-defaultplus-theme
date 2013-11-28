@@ -302,9 +302,9 @@
     },
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 3],
+        "row_padding": [8, 2.2],
         "indent": 12,
-        "indent_offset": 17,
+        "indent_offset": 14,
         "indent_top_level": false,
         "layer0.tint": [39, 40, 34],
         "layer0.opacity": 1.0,
@@ -312,14 +312,14 @@
     },
     {
         "class": "sidebar_heading",
-        "color": [207, 207, 194],
-        "font.bold": true,
-        "shadow_color": [29, 29, 22],
+        "color": [200, 200, 200],
+        "font.bold": false,
+        "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },  
     {
         "class": "sidebar_label",
-        "color": [207, 207, 194]
+        "color": [135, 135, 135]
         // , "shadow_color": [250, 250, 250], "shadow_offset": [0, 0]
     },
     {
@@ -330,14 +330,14 @@
     },
     {
         "class": "minimap_control",
-        "viewport_color": [68, 68, 68, 96]
+        "viewport_color": [0, 0, 0, 120]
     },
     {
         "class": "text_line_control",
         "layer0.texture": "Theme - DefaultPlus/assets/input_field.png",
         "layer0.tint": 0,
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [4, 5, 4, 3],
+        "layer0.opacity": 0.5,
+        "layer0.inner_margin": [0, 5, 0, 3],
         "content_margin": [3, 3, 3, 3]
     },
     {
@@ -349,7 +349,7 @@
     },
     {
         "class": "status_button",
-        "min_size": [100, 0]
+        "min_size": [100, 5]
     },
  
     /** Quick Panel **/
@@ -483,18 +483,18 @@
         "class": "tab_control",
         "settings": ["defaultplus_classic_tabs"],
         "layer0.texture": "Theme - DefaultPlus/assets/tab_mask_152_gradient2.png",
-        "layer0.inner_margin": [22, 4],
+        "layer0.inner_margin": [22, 0],
         "layer0.opacity": 1.0,
         "tint_index": 0,        // tint layer 0
         "tint_modifier": [255, 0, 0, 0],
  
         "layer1.texture": "",
-        "layer1.inner_margin": [22, 4],
+        "layer1.inner_margin": [22, 0],
         "layer1.opacity": 0.0,
  
-        "layer2.inner_margin": [22, 4],
+        "layer2.inner_margin": [22, 0],
  
-        "content_margin": [24, 8, 23, 4],
+        "content_margin": [20, 8, 23, 4],
         "max_margin_trim": 6,
         "hit_test_level": 0.4
     },
