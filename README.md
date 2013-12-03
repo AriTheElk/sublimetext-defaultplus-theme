@@ -2,7 +2,7 @@
 A fancier and easier to look at default theme for SublimeText and the Monokai color scheme.
 
 ## Preview
-![Screenshot](http://i.imgur.com/7r8qQsS.png)
+![Screenshot](http://i.imgur.com/3fFUuc4.png)
 
 
 ## Installation
