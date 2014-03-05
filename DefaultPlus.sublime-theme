@@ -637,7 +637,7 @@
     {
         "class": "tab_label",
         "fg": [2, 2, 2, 255],
-        "shadow_color": [255, 255, 255, 80],
+        "shadow_color": [0, 0, 0, 80],
         "shadow_offset": [0, 1]
     },
     {
@@ -689,6 +689,36 @@
         "shadow_color": [0, 0, 0, 255],
         "shadow_offset": [0, -1]
     },
+    {
+        "class": "tab_label",
+        "settings": ["defaultplus_tabs_brightfont"],
+        "fg": [220, 220, 220, 220],
+        "shadow_color": [0, 0, 0, 255],
+        "shadow_offset": [0, -1]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["defaultplus_tabs_brightfont"],
+        "fg": [220, 220, 220, 255],
+        "shadow_color": [0, 0, 0, 255],
+        "shadow_offset": [0, -1]
+    },
+    {
+        "class": "tab_label",
+        "font.size": 10.2
+    },
+    {
+        "class": "tab_label",
+        "settings": ["defaultplus_tabs_medfont"],
+        "font.size": 12
+    },
+    {
+        "class": "tab_label",
+        "settings": ["defaultplus_tabs_largefont"],
+        "font.size": 14
+    },
+
  
     /** Tab Close Buttons **/
     {

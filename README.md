@@ -38,8 +38,16 @@ You can change the style of the sidebar labels for better visibility using the f
 * Large Font Size: `"defaultplus_sidebar_largefont": true`
 * Bright Font Color: `"defaultplus_sidebar_brightfont": true`
 
+You can change the style of the tab labels for better visibility using the following settings in your preferences file:
+* Medium Font Size: `"defaultplus_tabs_medfont": true`
+* Large Font Size: `"defaultplus_tabs_largefont": true`
+* Bright Font Color: `"defaultplus_tabs_brightfont": true`
+
 ## Changelog
-## 3.4.13
+### 3.5.13
+* Added theme options for tab label styles
+
+### 3.4.13
 * Added theme options for sidebar label styles
 
 ### 11.28.13
