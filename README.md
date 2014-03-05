@@ -39,6 +39,9 @@ You can change the style of the sidebar labels for better visibility using the f
 * Bright Font Color: `"defaultplus_sidebar_brightfont": true`
 
 ## Changelog
+## 3.4.13
+* Added theme options for sidebar label styles
+
 ### 11.28.13
 * Updated the look and feel of the block tabs
 * Updated the look of input elements
