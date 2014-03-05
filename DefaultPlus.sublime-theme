@@ -319,10 +319,26 @@
     },  
     {
         "class": "sidebar_label",
-        "color": [135, 135, 135]
-        // , "shadow_color": [250, 250, 250], "shadow_offset": [0, 0]
+        "color": [135, 135, 135],
+        "font.size": 11
     },
     {
+        "class": "sidebar_label",
+        "settings": ["defaultplus_sidebar_brightfont"],
+        "color": [200, 200, 200]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["defaultplus_sidebar_medfont"],
+        "font.size": 13
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["defaultplus_sidebar_largefont"],
+        "font.size": 15
+    },
+    {
+
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255]
