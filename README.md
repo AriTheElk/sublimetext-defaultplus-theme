@@ -33,6 +33,11 @@ Enjoy using the DefaultPlus theme! If you have any issues, please don't hesitate
 ## Theme Options
 By default the tabs will be styled in a "block-tab" style. To restore the default tab style, add `"defaultplus_classic_tabs": true` in your Preferences file.
 
+You can change the style of the sidebar labels for better visibility using the following settings in your preferences file:
+* Medium Font Size: `"defaultplus_sidebar_medfont": true`
+* Large Font Size: `"defaultplus_sidebar_largefont": true`
+* Bright Font Color: `"defaultplus_sidebar_brightfont": true`
+
 ## Changelog
 ### 11.28.13
 * Updated the look and feel of the block tabs
