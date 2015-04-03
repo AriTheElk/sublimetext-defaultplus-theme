@@ -4,6 +4,8 @@ This is still a beta, but is very usable. It's undergoing a lot of updates and s
 ## Preview
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/v2/screenshot.png)
 
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/v2/screenshot-solarized.png)
+
 
 ## Installation
 ### Git Install
@@ -15,6 +17,13 @@ To get to your packages directory, go into SublimeText and click on `Preferences
 Now open up a terminal window and CD into the packages folder you opened and run:
 
 `git clone https://github.com/iGARET/sublimetext-defaultplus-theme "Theme - DefaultPlus"`
+
+
+## Using the theme
+- Open up your settings Sublime Text 2 -> Preferences -> Settings - User
+- Add (or change) the theme entry to "theme": "DefaultPlus.sublime-theme"
+- If you wish to use the Solarized version, use "theme": "DefaultPlus Solarized.sublime-theme"
+
 
 ## Theme Options
 Currently these options are not finalized. These may change at any time during the beta cycle.
