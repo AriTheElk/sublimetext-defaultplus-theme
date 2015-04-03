@@ -1,5 +1,5 @@
-# DefaultPlus
-A fancier and easier to look at default theme for SublimeText and the Monokai color scheme.
+# DefaultPlus v2
+This is still a beta, but is very usable. It's undergoing a lot of updates and some options and subject to changing.
 
 ## Preview
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/v2/screenshot.png)
@@ -16,32 +16,12 @@ Now open up a terminal window and CD into the packages folder you opened and run
 
 `git clone https://github.com/iGARET/sublimetext-defaultplus-theme "Theme - DefaultPlus"`
 
-### Manual Install
-
-* Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - DefaultPlus`
-* Locate your `Packages` directory by using the menu item `Preferences -> Browse Packages...`
-* Copy the folder into the packages folder that opened up.
-
-## Using the theme
-* Open up your settings `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or change) the theme entry to `"theme": "DefaultPlus.sublime-theme"`
-
-
-Enjoy using the DefaultPlus theme! If you have any issues, please don't hesitate to [report a new issue](https://github.com/iGARET/sublimetext-defaultplus-theme/issues).
-
 ## Theme Options
-By default the tabs will be styled in a "block-tab" style. To restore the default tab style, add `"defaultplus_classic_tabs": true` in your Preferences file.
+Currently these options are not finalized. These may change at any time during the beta cycle.
 
-You can change the style of the sidebar labels for better visibility using the following settings in your preferences file:
-* Medium Font Size: `"defaultplus_sidebar_medfont": true`
-* Large Font Size: `"defaultplus_sidebar_largefont": true`
-* Bright Font Color: `"defaultplus_sidebar_brightfont": true`
+`dplus_slim_tabs` - If disabled it will render large sized tabs.
+`dplus_bright_fonts` - if enabled it will use much more legible fonts in the tab/sidebar.
 
-You can change the style of the tab labels for better visibility using the following settings in your preferences file:
-* Medium Font Size: `"defaultplus_tabs_medfont": true`
-* Large Font Size: `"defaultplus_tabs_largefont": true`
-* Bright Font Color: `"defaultplus_tabs_brightfont": true`
 
 ## Changelog
 ### 4.2.15
