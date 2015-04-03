@@ -19,8 +19,8 @@ Now open up a terminal window and CD into the packages folder you opened and run
 ## Theme Options
 Currently these options are not finalized. These may change at any time during the beta cycle.
 
-`dplus_slim_tabs` - If disabled it will render large sized tabs.
-`dplus_bright_fonts` - if enabled it will use much more legible fonts in the tab/sidebar.
+- `dplus_fat_tabs` - If enabled, it will render large sized tabs.
+- `dplus_bright_fonts` - if enabled, it will use much more legible fonts in the tabs/sidebar.
 
 
 ## Changelog
