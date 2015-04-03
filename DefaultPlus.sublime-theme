@@ -5,8 +5,9 @@
 //
 
     // Tab set
-    {
+    { // Slim Tabs
         "class": "tabset_control",
+        "settings": ["dplus_slim_tabs"],
         "layer0.texture": "",
         "layer0.tint": [39, 40, 34], // -00
         "layer0.inner_margin": 0,
@@ -16,6 +17,20 @@
         "tab_width": 128,
         "tab_min_width": 48,
         "tab_height": 28,
+        "mouse_wheel_switch": false
+    },
+    { // Fat Tabs
+        "class": "tabset_control",
+        "settings": ["!dplus_slim_tabs"],
+        "layer0.texture": "",
+        "layer0.tint": [39, 40, 34], // -00
+        "layer0.inner_margin": 0,
+        "layer0.opacity": 1,
+        "content_margin": 0,
+        "tab_overlap": 0,
+        "tab_width": 128,
+        "tab_min_width": 48,
+        "tab_height": 40,
         "mouse_wheel_switch": false
     },
     {
@@ -159,18 +174,32 @@
 
     {
         "class": "tab_label",
+        "settings": ["!dplus_bright_fonts"],
         "fade": true,
         "fg": [150, 150, 150] // 03
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [192, 197, 206] // 05
+        "settings": ["dplus_bright_fonts"],
+        "fade": true,
+        "fg": [255, 255, 255] // 03
     },
     {
         "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["hover"]}],
+        "fg": [177, 93, 29], // 01
+    },
+    {
+        "class": "tab_label",
+        "settings": ["!dplus_bright_fonts"],
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
         "fg": [223, 225, 232] // 06
+    },
+    {
+        "class": "tab_label",
+        "settings": ["dplus_bright_fonts"],
+        "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "fg": [255, 255, 255] // 06
     },
     {
         "class": "tab_label",
@@ -178,26 +207,16 @@
         "font.italic": true
     },
 
-    // Tab Labels font size
+    // Tab Labels
     {
         "class": "tab_label",
-        "settings": ["DefaultPlus_tabs_font_small"],
+        "settings": ["dplus_slim_tabs"],
         "font.size": 10.0
     },
     {
         "class": "tab_label",
-        "settings": ["DefaultPlus_tabs_font_normal"],
-        "font.size": 11.0
-    },
-    {
-        "class": "tab_label",
-        "settings": ["DefaultPlus_tabs_font_large"],
+        "settings": ["!dplus_slim_tabs"],
         "font.size": 12.0
-    },
-    {
-        "class": "tab_label",
-        "settings": ["DefaultPlus_tabs_font_xlarge"],
-        "font.size": 14.0
     },
 
 //
