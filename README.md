@@ -2,7 +2,7 @@
 A fancier and easier to look at default theme for SublimeText and the Monokai color scheme.
 
 ## Preview
-![Screenshot](http://i.imgur.com/3fFUuc4.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/screenshot.png)
 
 
 ## Installation
@@ -44,17 +44,20 @@ You can change the style of the tab labels for better visibility using the follo
 * Bright Font Color: `"defaultplus_tabs_brightfont": true`
 
 ## Changelog
-### 3.5.13
-* Added theme options for tab label styles
+### 4.2.15
+- First 2.0 preview build is done.
 
-### 3.4.13
-* Added theme options for sidebar label styles
+### 3.5.14
+- Added theme options for tab label styles
+
+### 3.4.14
+- Added theme options for sidebar label styles
 
 ### 11.28.13
-* Updated the look and feel of the block tabs
-* Updated the look of input elements
-* Changed the color of button highlights
-* Made the side bar's color scheme easier on the eyes.
+- Updated the look and feel of the block tabs
+- Updated the look of input elements
+- Changed the color of button highlights
+- Made the side bar's color scheme easier on the eyes.
 
-### 11.25.13 
-* Added block-styled tabs
+### 11.25.13
+- Added block-styled tabs
