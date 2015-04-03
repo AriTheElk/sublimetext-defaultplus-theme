@@ -5,9 +5,8 @@
 //
 
     // Tab set
-    { // Slim Tabs
+    {
         "class": "tabset_control",
-        "settings": ["dplus_slim_tabs"],
         "layer0.texture": "",
         "layer0.tint": [39, 40, 34], // -00
         "layer0.inner_margin": 0,
@@ -17,20 +16,6 @@
         "tab_width": 128,
         "tab_min_width": 48,
         "tab_height": 28,
-        "mouse_wheel_switch": false
-    },
-    { // Fat Tabs
-        "class": "tabset_control",
-        "settings": ["!dplus_slim_tabs"],
-        "layer0.texture": "",
-        "layer0.tint": [39, 40, 34], // -00
-        "layer0.inner_margin": 0,
-        "layer0.opacity": 1,
-        "content_margin": 0,
-        "tab_overlap": 0,
-        "tab_width": 128,
-        "tab_min_width": 48,
-        "tab_height": 40,
         "mouse_wheel_switch": false
     },
     {
@@ -65,7 +50,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [177, 93, 29] // 00
+        "layer0.tint": [177, 93, 29] // 01
     },
     // Tab dirty state (close button hidden)
     {
@@ -102,7 +87,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [177, 93, 29] // 08
+        "layer0.tint": [177, 93, 29] // 01
     },
     {
         "class": "tab_close_button",
@@ -137,7 +122,7 @@
         "layer0.texture": "Theme - DefaultPlus/DefaultPlus/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [177, 93, 29] // 08
+        "layer0.tint": [177, 93, 29] // 01
     },
     {
         "class": "tab_close_button",
@@ -210,13 +195,12 @@
     // Tab Labels
     {
         "class": "tab_label",
-        "settings": ["dplus_slim_tabs"],
         "font.size": 10.0
     },
     {
         "class": "tab_label",
-        "settings": ["!dplus_slim_tabs"],
-        "font.size": 12.0
+        "settings": ["dplus_fat_tabs"],
+        "font.size": 13.0
     },
 
 //
@@ -506,27 +490,27 @@
     },
     {
         "class": "sidebar_tree",
-        "settings": ["DefaultPlus_sidebar_tree_xsmall"],
+        "settings": ["dplus_sidebar_tree_xsmall"],
         "row_padding": [8, 0]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["DefaultPlus_sidebar_tree_small"],
+        "settings": ["dplus_sidebar_tree_small"],
         "row_padding": [8, 2]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["DefaultPlus_sidebar_tree_normal"],
+        "settings": ["dplus_sidebar_tree_normal"],
         "row_padding": [8, 4]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["DefaultPlus_sidebar_tree_large"],
+        "settings": ["dplus_sidebar_tree_large"],
         "row_padding": [8, 6]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["DefaultPlus_sidebar_tree_xlarge"],
+        "settings": ["dplus_sidebar_tree_xlarge"],
         "row_padding": [8, 8]
     },
     // Sidebar heading selected
@@ -542,22 +526,22 @@
     },
     {
         "class": "sidebar_label",
-        "settings": ["DefaultPlus_sidebar_font_small"],
+        "settings": ["dplus_sidebar_font_small"],
         "font.size": 10.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["DefaultPlus_sidebar_font_normal"],
+        "settings": ["dplus_sidebar_font_normal"],
         "font.size": 11.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["DefaultPlus_sidebar_font_large"],
+        "settings": ["dplus_sidebar_font_large"],
         "font.size": 12.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["DefaultPlus_sidebar_font_xlarge"],
+        "settings": ["dplus_sidebar_font_xlarge"],
         "font.size": 14.0
     },
     // Sidebar folder entry
@@ -625,7 +609,7 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [177, 93, 29] // 08
+        "layer0.tint": [177, 93, 29] // 01
     },
     {
         "class": "close_button",
@@ -638,7 +622,7 @@
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - DefaultPlus/DefaultPlus/close.png",
-        "layer0.tint": [177, 93, 29] // 08
+        "layer0.tint": [177, 93, 29] // 01
     },
 
 //
@@ -831,7 +815,7 @@
     {
         "class": "table_row",
         // "layer0.texture": "",
-        "layer0.tint": [177, 93, 29], // 02
+        "layer0.tint": [177, 93, 29], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },
@@ -913,7 +897,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
     // Case sensitive search button
     {
@@ -926,7 +910,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
     // Match whole word search button
     {
@@ -939,7 +923,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
 
 //
@@ -957,7 +941,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
     // Use search buffer
     {
@@ -970,7 +954,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
 
 //
@@ -987,7 +971,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
     // Search wrap button
     {
@@ -1000,7 +984,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
     // Search in selection button
     {
@@ -1013,7 +997,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
 
 //
@@ -1031,7 +1015,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
 
 //
@@ -1049,7 +1033,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [177, 93, 29] // 07
+        "layer0.tint": [177, 93, 29] // 01
     },
 
 //
@@ -1057,7 +1041,7 @@
 //
     {
         "class": "disclosure_button_control",
-        "settings": ["DefaultPlus_color_expanded_folder"],
+        "settings": ["dplus_color_expanded_folder"],
         "attributes": ["expanded"],
         "layer0.tint": [254, 204, 102] // 0A
     },
@@ -1069,28 +1053,8 @@
     // Tab set
     {
         "class": "tabset_control",
-        "settings": ["DefaultPlus_tabs_auto_width"],
-        "tab_width": 0
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["DefaultPlus_tabs_small"],
-        "tab_height": 22
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["DefaultPlus_tabs_normal"],
-        "tab_height": 28
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["DefaultPlus_tabs_large"],
-        "tab_height": 34
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["DefaultPlus_tabs_xlarge"],
-        "tab_height": 40
+        "settings": ["dplus_fat_tabs"],
+        "tab_height": 48
     },
 
 //
