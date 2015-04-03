@@ -2,7 +2,7 @@
 A fancier and easier to look at default theme for SublimeText and the Monokai color scheme.
 
 ## Preview
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/v2/screenshot.png)
 
 
 ## Installation
