@@ -1,11 +1,43 @@
 # DefaultPlus v2
-This is still a beta, but is very usable. It's undergoing a lot of updates and some options and subject to changing.
+The DefaultPlus v2 theme, is 12 themes in one! It includes a UI theme that matches every default color scheme (only dark schemes supported for now).
+
 
 ## Preview
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/v2/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/all-hallows-eye.png)
+> All Hallow's Eve
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/v2/screenshot-solarized.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/blackboard.png)
+> Blackboard
 
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/amy.png)
+> Amy
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/cobalt.png)
+> Cobalt
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/espresso-libre.png)
+> Espresso Libre
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/monokai.png)
+> Monokai
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/pastels-on-dark.png)
+> Pastels on Dark
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/solarized.png)
+> Solarized
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/spacecadet.png)
+> SpaceCadet
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/sunburst.png)
+> Sunburst
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/twilight.png)
+> Twilight
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/zenbunesque.png)
+> Zenburnesque
 
 ## Installation
 ### Git Install
@@ -14,39 +46,59 @@ You can install the theme and keep it updated by cloning the repo into your `Pac
 
 To get to your packages directory, go into SublimeText and click on `Preferences -> Browse Packages...`.
 
-Now open up a terminal window and CD into the packages folder you opened and run:
+Now open up a terminal window and change your current directory to the the packages folder you opened
+
+`cd /path/to/packages/folder`
+
+
+Then clone the repository into the current directory under the name "Theme - DefaultPlus".
 
 `git clone https://github.com/iGARET/sublimetext-defaultplus-theme "Theme - DefaultPlus"`
 
 
 ## Using the theme
-- Open up your settings Sublime Text 2 -> Preferences -> Settings - User
-- Add (or change) the theme entry to "theme": "DefaultPlus.sublime-theme"
-- If you wish to use the Solarized version, use "theme": "DefaultPlus Solarized.sublime-theme"
+- Open up your settings `Sublime Text -> Preferences -> Settings - User`
+- Add (or change) the theme entry to `"theme": "DefaultPlus Monokai.sublime-theme"`
+- You can replace Monokai with any of the included themes. Make sure to change the color scheme too!
 
 
 ## Theme Options
-Currently these options are not finalized. These may change at any time during the beta cycle.
-
 - `dplus_fat_tabs` - If enabled, it will render large sized tabs.
 - `dplus_bright_fonts` - if enabled, it will use much more legible fonts in the tabs/sidebar.
 
 
 ## Changelog
-### 4.2.15
+### 4.9.2015
+- 2.0 release.
+- Added Blackboard theme.
+- Added Cobalt theme.
+- Aded Espresso Libre theme.
+- Added Pastels on Dark theme.
+- Added SpaceCadet theme.
+- Added Sunburst theme.
+- Added Twilight theme.
+- Added Zenburnesque theme.
+- Changed folder open/closed icons.
+
+### 4.3.2015
+- Added Solarized theme.
+- Added Amy theme.
+- Added All Hallow's Eve theme.
+
+### 4.2.2015
 - First 2.0 preview build is done.
 
-### 3.5.14
+### 3.5.2014
 - Added theme options for tab label styles
 
-### 3.4.14
+### 3.4.2014
 - Added theme options for sidebar label styles
 
-### 11.28.13
+### 11.28.2013
 - Updated the look and feel of the block tabs
 - Updated the look of input elements
 - Changed the color of button highlights
 - Made the side bar's color scheme easier on the eyes.
 
-### 11.25.13
+### 11.25.2013
 - Added block-styled tabs
