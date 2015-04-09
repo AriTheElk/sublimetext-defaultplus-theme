@@ -1,9 +1,43 @@
-# DefaultPlus
-A fancier and easier to look at default theme for SublimeText and the Monokai color scheme.
+# DefaultPlus v2
+The DefaultPlus v2 theme, is 12 themes in one! It includes a UI theme that matches every default color scheme (only dark schemes supported for now).
+
 
 ## Preview
-![Screenshot](http://i.imgur.com/3fFUuc4.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/all-hallows-eye.png)
+> All Hallow's Eve
 
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/blackboard.png)
+> Blackboard
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/amy.png)
+> Amy
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/cobalt.png)
+> Cobalt
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/espresso-libre.png)
+> Espresso Libre
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/monokai.png)
+> Monokai
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/pastels-on-dark.png)
+> Pastels on Dark
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/solarized.png)
+> Solarized
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/spacecadet.png)
+> SpaceCadet
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/sunburst.png)
+> Sunburst
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/twilight.png)
+> Twilight
+
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/zenbunesque.png)
+> Zenburnesque
 
 ## Installation
 ### Git Install
@@ -12,49 +46,59 @@ You can install the theme and keep it updated by cloning the repo into your `Pac
 
 To get to your packages directory, go into SublimeText and click on `Preferences -> Browse Packages...`.
 
-Now open up a terminal window and CD into the packages folder you opened and run:
+Now open up a terminal window and change your current directory to the the packages folder you opened
+
+`cd /path/to/packages/folder`
+
+
+Then clone the repository into the current directory under the name "Theme - DefaultPlus".
 
 `git clone https://github.com/iGARET/sublimetext-defaultplus-theme "Theme - DefaultPlus"`
 
-### Manual Install
-
-* Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - DefaultPlus`
-* Locate your `Packages` directory by using the menu item `Preferences -> Browse Packages...`
-* Copy the folder into the packages folder that opened up.
 
 ## Using the theme
-* Open up your settings `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or change) the theme entry to `"theme": "DefaultPlus.sublime-theme"`
+- Open up your settings `Sublime Text -> Preferences -> Settings - User`
+- Add (or change) the theme entry to `"theme": "DefaultPlus Monokai.sublime-theme"`
+- You can replace Monokai with any of the included themes. Make sure to change the color scheme too!
 
-
-Enjoy using the DefaultPlus theme! If you have any issues, please don't hesitate to [report a new issue](https://github.com/iGARET/sublimetext-defaultplus-theme/issues).
 
 ## Theme Options
-By default the tabs will be styled in a "block-tab" style. To restore the default tab style, add `"defaultplus_classic_tabs": true` in your Preferences file.
+- `dplus_fat_tabs` - If enabled, it will render large sized tabs.
+- `dplus_bright_fonts` - if enabled, it will use much more legible fonts in the tabs/sidebar.
 
-You can change the style of the sidebar labels for better visibility using the following settings in your preferences file:
-* Medium Font Size: `"defaultplus_sidebar_medfont": true`
-* Large Font Size: `"defaultplus_sidebar_largefont": true`
-* Bright Font Color: `"defaultplus_sidebar_brightfont": true`
-
-You can change the style of the tab labels for better visibility using the following settings in your preferences file:
-* Medium Font Size: `"defaultplus_tabs_medfont": true`
-* Large Font Size: `"defaultplus_tabs_largefont": true`
-* Bright Font Color: `"defaultplus_tabs_brightfont": true`
 
 ## Changelog
-### 3.5.13
-* Added theme options for tab label styles
+### 4.9.2015
+- 2.0 release.
+- Added Blackboard theme.
+- Added Cobalt theme.
+- Aded Espresso Libre theme.
+- Added Pastels on Dark theme.
+- Added SpaceCadet theme.
+- Added Sunburst theme.
+- Added Twilight theme.
+- Added Zenburnesque theme.
+- Changed folder open/closed icons.
 
-### 3.4.13
-* Added theme options for sidebar label styles
+### 4.3.2015
+- Added Solarized theme.
+- Added Amy theme.
+- Added All Hallow's Eve theme.
 
-### 11.28.13
-* Updated the look and feel of the block tabs
-* Updated the look of input elements
-* Changed the color of button highlights
-* Made the side bar's color scheme easier on the eyes.
+### 4.2.2015
+- First 2.0 preview build is done.
 
-### 11.25.13 
-* Added block-styled tabs
+### 3.5.2014
+- Added theme options for tab label styles
+
+### 3.4.2014
+- Added theme options for sidebar label styles
+
+### 11.28.2013
+- Updated the look and feel of the block tabs
+- Updated the look of input elements
+- Changed the color of button highlights
+- Made the side bar's color scheme easier on the eyes.
+
+### 11.25.2013
+- Added block-styled tabs
