@@ -3,40 +3,40 @@ The DefaultPlus v2 theme, is 12 themes in one! It includes a UI theme that match
 
 
 ## Preview
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/all-hallows-eye.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/all-hallows-eve.png)
 > All Hallow's Eve
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/blackboard.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/blackboard.png)
 > Blackboard
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/amy.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/amy.png)
 > Amy
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/cobalt.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/cobalt.png)
 > Cobalt
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/espresso-libre.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/espresso-libre.png)
 > Espresso Libre
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/monokai.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/monokai.png)
 > Monokai
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/pastels-on-dark.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/pastels-on-dark.png)
 > Pastels on Dark
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/solarized.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/solarized.png)
 > Solarized
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/spacecadet.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/spacecadet.png)
 > SpaceCadet
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/sunburst.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/sunburst.png)
 > Sunburst
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/twilight.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/twilight.png)
 > Twilight
 
-![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/zenbunesque.png)
+![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/zenburnesque.png)
 > Zenburnesque
 
 ## Installation
