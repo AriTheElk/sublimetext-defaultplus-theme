@@ -53,7 +53,7 @@ Now open up a terminal window and change your current directory to the the packa
 
 Then clone the repository into the current directory under the name "Theme - DefaultPlus".
 
-`git clone https://github.com/iGARET/sublimetext-defaultplus-theme "Theme - DefaultPlus"`
+`git clone https://github.com/mediachicken/sublimetext-defaultplus-theme "Theme - DefaultPlus"`
 
 
 ## Using the theme
