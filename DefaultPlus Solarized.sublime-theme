@@ -450,6 +450,12 @@
         "parents": [{"class": "status_bar"}],
         "color": [255, 255, 255, 75] // 02
     },
+    {
+        "class": "label_control",
+        "settings": ["dplus_bright_status_bar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [39, 142, 109, 255] // 02
+    },
 
 //
 // SIDEBAR

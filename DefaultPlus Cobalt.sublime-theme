@@ -428,7 +428,7 @@
     },
 
 //
-// STATUS BAR
+//
 //
 
     // Status bar container
@@ -449,6 +449,12 @@
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "color": [255, 255, 255, 75] // 02
+    },
+    {
+        "class": "label_control",
+        "settings": ["dplus_bright_status_bar"],
+        "parents": [{"class": "status_bar"}],
+        "color": [0, 136, 255, 255] // 02
     },
 
 //
