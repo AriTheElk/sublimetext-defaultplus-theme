@@ -378,7 +378,12 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [255,255,255,15]
+        "viewport_color": [153, 48, 167,50]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["dplus_bright_minimap"],
+        "viewport_color": [153, 48, 167,125]
     },
 
 //

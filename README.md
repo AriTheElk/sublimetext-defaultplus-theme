@@ -64,7 +64,8 @@ Then clone the repository into the current directory under the name "Theme - Def
 
 ## Theme Options
 - `dplus_fat_tabs` - If enabled, it will render large sized tabs.
-- `dplus_bright_fonts` - if enabled, it will use much more legible fonts in the tabs/sidebar.
+- `dplus_bright_fonts` - if enabled, it will use more legible fonts in the tabs/sidebar.
+- `dplus_bright_minimap` - if enabled, the minimap will be more vibrant in color.
 
 
 ## Changelog
