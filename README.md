@@ -3,43 +3,54 @@ The DefaultPlus v2 theme, is 12 themes in one! It includes a UI theme that match
 
 
 ## Preview
+### All Hallow's Eve
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/all-hallows-eve.png)
-> All Hallow's Eve
 
+### Blackboard
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/blackboard.png)
-> Blackboard
 
+### Amy
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/amy.png)
-> Amy
 
+### Cobalt
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/cobalt.png)
-> Cobalt
 
+### Espresso Libre
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/espresso-libre.png)
-> Espresso Libre
 
+### Monokai
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/monokai.png)
-> Monokai
 
+### Pastels on Dark
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/pastels-on-dark.png)
-> Pastels on Dark
 
+### Solarized
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/solarized.png)
-> Solarized
 
+### SpaceCadet
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/spacecadet.png)
-> SpaceCadet
 
+### Sunburst
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/sunburst.png)
-> Sunburst
 
+### Twilight
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/twilight.png)
-> Twilight
 
+### Zenburnesque
 ![Screenshot](https://raw.githubusercontent.com/mediachicken/sublimetext-defaultplus-theme/master/previews/zenburnesque.png)
-> Zenburnesque
+
 
 ## Installation
+### Package Control (Recommended)
+If you have [sublime package control](https://packagecontrol.io) installed, it's a breeze to install DefaultPlus.
+
+If you don't have it installed, [go here](https://packagecontrol.io/installation) to learn how to install it. I really can't recommend it enough.
+
+1. Open up the `Tools->Command Pallette`(⇧⌘P on OSX)
+2. Type in `install` and select the `Package Control: Install Package` option.
+3. Find `Theme - DefaultPlus`and hit `Enter` to install.
+
+
 ### Git Install
 
 You can install the theme and keep it updated by cloning the repo into your `Packages` directory.
