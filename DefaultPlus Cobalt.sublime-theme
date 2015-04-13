@@ -1036,7 +1036,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/highlight.png",
+        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/highlight-matches.png",
         "layer0.tint": [125, 125, 125], // 02
         "layer0.opacity": 1,
         "content_margin": 8
