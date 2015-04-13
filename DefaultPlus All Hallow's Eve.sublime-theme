@@ -223,7 +223,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/folder-open.png"
+        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/close.png"
     },
     {
         "class": "fold_button_control",
@@ -662,7 +662,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/folder-open.png"
+        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/close.png"
     },
     {
         "class": "disclosure_button_control",
@@ -673,7 +673,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/folder-open.png"
+        "layer0.texture": "Theme - DefaultPlus/DefaultPlus/close.png"
     },
 
 //
