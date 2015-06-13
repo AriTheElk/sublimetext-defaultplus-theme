@@ -172,7 +172,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [107, 137, 107], // 01
+        "fg": [107, 137, 107] // 01
     },
     {
         "class": "tab_label",
@@ -1065,7 +1065,14 @@
     {
         "class": "tabset_control",
         "settings": ["dplus_fat_tabs"],
-        "tab_height": 48
+        "tab_height": 48,
+    },
+    {
+        "class": "tab_label",
+        "settings": ["dplus_fat_tabs"],
+        "font.size": 10.0,
+        "content_margin": [20,0],
+
     },
 
 //

@@ -172,7 +172,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [247, 100, 0], // 01
+        "fg": [247, 100, 0] // 01
     },
     {
         "class": "tab_label",
