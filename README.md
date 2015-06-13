@@ -81,6 +81,9 @@ Then clone the repository into the current directory under the name "Theme - Def
 
 
 ## Changelog
+### 6.13.2015
+- Removed unexpected comma on line 175 of all themes.
+
 ### 4.9.2015
 - 2.0 release.
 - Added Blackboard theme.
