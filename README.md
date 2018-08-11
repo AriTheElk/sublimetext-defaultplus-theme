@@ -57,7 +57,7 @@ You can install the theme and keep it updated by cloning the repo into your `Pac
 
 To get to your packages directory, go into SublimeText and click on `Preferences -> Browse Packages...`.
 
-Now open up a terminal window and change your current directory to the the packages folder you opened
+Now open up a terminal window and change your current directory to the packages folder you opened
 
 `cd /path/to/packages/folder`
 
